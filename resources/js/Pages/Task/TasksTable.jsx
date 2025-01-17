@@ -115,7 +115,6 @@ export default function TasksTable({
             <tr className=" text-nowrap">
               <th className="px-4 py-3"></th>
               <th className="px-4 py-3"></th>
-              <th className="px-4 py-3"></th>
               {!hideProjectColumn && <th className="px-4 py-3"></th>}
 
               <th className="px-4 py-3">
@@ -143,6 +142,7 @@ export default function TasksTable({
               {/* this is to match the qnty of the columns (style) */}
               <th className="px-4 py-3"></th>
               <th className="px-4 py-3 text-right"></th>
+              <th className="px-4 py-3"></th>
             </tr>
           </thead>
           <tbody>
